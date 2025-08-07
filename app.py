@@ -2,7 +2,8 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
-from langchain.tools import load_tools
+from langchain_community.tools import load_tools
+
 
 
 st.title("Agentic AI Demo")
